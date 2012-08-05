@@ -10,12 +10,15 @@ $modx->setLogLevel(modx::LOG_LEVEL_INFO);
 $modx->setLogTarget('ECHO');
 
 $root = dirname(dirname(__FILE__)).'/';
+
 $sources = array(
     'model' => $root.'core/components/dodles/model/',
-    'schema_file' => $root.'core/components/dodles/model/dodles.mysql.schema.xml',
+    'schema_file' => $root.'core/components/dodles/model/schema/dodles.mysql.schema.xml',
 );
+
 $manager = $modx->getManager();
-$generator = $modx->getGenerator();
+
+$generator = $manager->getGenerator();
 
 if (!is_dir($sources['model'])) { $modx->log(modX::LOG_LEVEL_ERROR, 'Model directory not found!'); die(); }
 if (!file_exists($sources['schema_file'])) { $modx->log(modX::LOG_LEVEL_ERROR, 'Schema file not found!'); die(); }
