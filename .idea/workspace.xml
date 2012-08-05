@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5de51ccd-3f22-4ecf-bbe2-f86d41c3ed3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/components/dodles/elements/chunks/rowtpl.chunk.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/components/dodles/lexicon/en/default.inc.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/components/dodles/model/dodles/dodle.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/components/dodles/model/dodles/mysql/dodle.class.php" />
-      <change type="DELETED" beforePath="C:\Users\KEY\Dropbox\JOB\projects\modx_dodles\core\components\dodles\model\dodles\mysql\dodles.class.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\KEY\Dropbox\JOB\projects\modx_dodles\core\components\dodles\model\dodles\mysql\dodles.map.inc.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\KEY\Dropbox\JOB\projects\modx_dodles\core\components\dodles\model\dodles\mysql\dodles.map.inc.php" afterPath="$PROJECT_DIR$/core/components/dodles/model/dodles/mysql/dodle.map.inc.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/components/dodles/js/mgr/dodles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/components/dodles/js/mgr/sections/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/components/dodles/js/mgr/widgets/home.panel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/components/dodles/controllers/home.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/components/dodles/index.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/components/dodles/templates/home.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_build/build.config.php" afterPath="$PROJECT_DIR$/_build/build.config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/dodles/elements/snippets/snippet.dodles.php" afterPath="$PROJECT_DIR$/core/components/dodles/elements/snippets/snippet.dodles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/dodles/model/dodles/dodles.class.php" afterPath="$PROJECT_DIR$/core/components/dodles/model/dodles/dodles.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/dodles/model/dodles/metadata.mysql.php" afterPath="$PROJECT_DIR$/core/components/dodles/model/dodles/metadata.mysql.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/components/dodles/model/schema/dodles.mysql.schema.xml" afterPath="$PROJECT_DIR$/core/components/dodles/model/schema/dodles.mysql.schema.xml" />
     </list>
     <ignored path="modx_dodles.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,28 +66,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dodles.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/components/dodles/model/dodles/dodles.class.php">
+      <file leaf-file-name="home.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/components/dodles/templates/home.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="42" selection-start="1543" selection-end="1543" vertical-scroll-proportion="-25.923077">
+            <state line="0" column="43" selection-start="38" selection-end="38" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_build/build.config.php">
+      <file leaf-file-name="home.class.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/components/dodles/controllers/home.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="70" selection-start="31" selection-end="76" vertical-scroll-proportion="-0.65384614">
+            <state line="7" column="53" selection-start="184" selection-end="184" vertical-scroll-proportion="0.21715328">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.inc.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/components/dodles/index.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="58" selection-start="550" selection-end="550" vertical-scroll-proportion="-9.153846">
+              <folding>
+                <marker date="1344172127880" expanded="true" signature="454:604" placeholder="..." />
+                <marker date="1344172127880" expanded="true" signature="454:523" placeholder="..." />
+                <marker date="1344172127880" expanded="true" signature="490:585" placeholder="{...}" />
+                <marker date="1344172127880" expanded="true" signature="490:523" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dodles.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/dodles/js/mgr/dodles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="71" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/dodles/js/mgr/sections/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="46" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.panel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/components/dodles/js/mgr/widgets/home.panel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="39" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/components/dodles/lexicon/en/default.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="51" selection-start="409" selection-end="409" vertical-scroll-proportion="0.24504505">
+            <state line="10" column="45" selection-start="577" selection-end="577" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
@@ -130,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_build/build.schema.php" />
         <option value="$PROJECT_DIR$/_build/build.config.php" />
         <option value="$PROJECT_DIR$/core/components/dodles/model/dodles/mysql/dodle.class.php" />
         <option value="$PROJECT_DIR$/core/components/dodles/model/dodles/metadata.mysql.php" />
@@ -141,6 +175,12 @@
         <option value="$PROJECT_DIR$/core/components/dodles/elements/snippets/snippet.dodles.php" />
         <option value="$PROJECT_DIR$/core/components/dodles/model/dodles/dodles.class.php" />
         <option value="$PROJECT_DIR$/core/components/dodles/lexicon/en/default.inc.php" />
+        <option value="$PROJECT_DIR$/core/components/dodles/index.class.php" />
+        <option value="$PROJECT_DIR$/assets/components/dodles/js/mgr/dodles.js" />
+        <option value="$PROJECT_DIR$/core/components/dodles/controllers/home.class.php" />
+        <option value="$PROJECT_DIR$/core/components/dodles/templates/home.tpl" />
+        <option value="$PROJECT_DIR$/assets/components/dodles/js/mgr/sections/index.js" />
+        <option value="$PROJECT_DIR$/assets/components/dodles/js/mgr/widgets/home.panel.js" />
       </list>
     </option>
   </component>
@@ -234,12 +274,30 @@
               <option name="myItemId" value="dodles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="modx_dodles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modx_dodles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="schema" />
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dodles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,10 +326,6 @@
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dodles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -302,10 +356,6 @@
               <option name="myItemId" value="dodles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mysql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -329,11 +379,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lexicon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -347,7 +393,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -359,11 +405,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="snippets" />
+              <option name="myItemId" value="mgr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,7 +423,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -389,11 +435,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="chunks" />
+              <option name="myItemId" value="mgr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modx_dodles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modx_dodles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dodles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mgr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sections" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -429,7 +513,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="217" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="216" />
     <property name="project.structure.proportion" value="0.0" />
@@ -457,7 +541,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -686,38 +770,42 @@
       <created>1344155137514</created>
       <updated>1344155137514</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="4">
+      <created>1344171033554</created>
+      <updated>1344171033554</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15153733" sideWeight="0.6704362" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15080526" sideWeight="0.6704362" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17935579" sideWeight="0.6704362" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -829,20 +917,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/components/dodles/model/dodles/dodle.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/components/dodles/model/dodles/mysql/dodle.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/components/dodles/model/dodles/mysql/dodle.map.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="85" selection-start="797" selection-end="797" vertical-scroll-proportion="0.2693662">
@@ -871,9 +945,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/components/dodles/elements/chunks/rowtpl.chunk.tpl">
+    <entry file="file://$PROJECT_DIR$/_build/build.config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="43" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+        <state line="1" column="70" selection-start="31" selection-end="76" vertical-scroll-proportion="0.029929578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/dodles/js/mgr/widgets/home.panel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="39" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/components/dodles/lexicon/en/default.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="45" selection-start="577" selection-end="577" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
@@ -885,23 +973,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/components/dodles/elements/chunks/rowtpl.chunk.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="43" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/dodles/js/mgr/sections/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="46" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/components/dodles/js/mgr/dodles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="71" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/components/dodles/model/dodles/dodle.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/components/dodles/model/dodles/dodles.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="42" selection-start="1543" selection-end="1543" vertical-scroll-proportion="-25.923077">
+        <state line="40" column="42" selection-start="1543" selection-end="1543" vertical-scroll-proportion="1.271028">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_build/build.config.php">
+    <entry file="file://$PROJECT_DIR$/core/components/dodles/templates/home.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="70" selection-start="31" selection-end="76" vertical-scroll-proportion="-0.65384614">
+        <state line="0" column="43" selection-start="38" selection-end="38" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/components/dodles/lexicon/en/default.inc.php">
+    <entry file="file://$PROJECT_DIR$/core/components/dodles/index.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="51" selection-start="409" selection-end="409" vertical-scroll-proportion="0.24504505">
+        <state line="14" column="58" selection-start="550" selection-end="550" vertical-scroll-proportion="-9.153846">
+          <folding>
+            <marker date="1344172127880" expanded="true" signature="454:604" placeholder="..." />
+            <marker date="1344172127880" expanded="true" signature="454:523" placeholder="..." />
+            <marker date="1344172127880" expanded="true" signature="490:585" placeholder="{...}" />
+            <marker date="1344172127880" expanded="true" signature="490:523" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/components/dodles/controllers/home.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="53" selection-start="184" selection-end="184" vertical-scroll-proportion="0.21715328">
           <folding />
         </state>
       </provider>
@@ -946,6 +1074,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
