@@ -1,5 +1,5 @@
 <?php
-$xpdo_meta_map['Dodles']= array (
+$xpdo_meta_map['Dodle']= array (
   'package' => 'dodles',
   'version' => NULL,
   'table' => 'dodles',
@@ -55,7 +55,7 @@ $xpdo_meta_map['Dodles']= array (
     array (
       'dbtype' => 'int',
       'precision' => '10',
-      'attributes' => 'unsugned',
+      'attributes' => 'unsigned',
       'phptype' => 'integer',
       'null' => false,
       'default' => 0,
