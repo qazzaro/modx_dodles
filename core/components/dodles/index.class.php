@@ -20,7 +20,7 @@ abstract class DodlesManagerController extends modExtraManagerController
 
     public function getLanguageTopics()
     {
-        return array('dodles.default');
+        return array('dodles:default');
     }
     public function checkPermissions()
     {

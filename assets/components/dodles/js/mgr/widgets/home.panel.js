@@ -16,14 +16,14 @@ Dodles.panel.Home = function(config){
                 title: _('dodles'),
                 defaults: {autoHeight: true},
                 items: [{
-                    html: '<p>'+_('dodles.managment_desc')+'</p>',
+                    html: '<p>'+_('dodles.management_desc')+'</p>',
                     border: false,
                     bodyCssClass: 'panel-desc'
-                }/*,{
+                },{
                     xtype: 'dodles-grid-dodles',
                     cls: 'main-wrapper',
                     preventRender: true
-                }*/]
+                }]
             }]
         }]
     });
